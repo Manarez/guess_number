@@ -11,10 +11,10 @@ def main():
         if i < number:
             print('Ваше число меньше загаданного')
         
-        if i > number:
+        elif i > number:
             print('Ваше число больше загаданного')
 
-        if i == number:
+        elif i == number:
             break
 
 main()
